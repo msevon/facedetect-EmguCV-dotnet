@@ -51,11 +51,6 @@ A simple C# Windows app for real-time face detection using Emgu CV (OpenCV for .
 - Run the application. If it supports auto-training, the face recognizer will use images in these folders to train.
 - Otherwise, consult your `TrainFaceRecognizer.cs` or related code for any manual "Train" actions.
 
-## Troubleshooting
-
-- Webcam not working? Try a different device index or check connection.
-- Cascade file error? Confirm XML is present and correct size.
-
 ## Project structure
 - Core code: `MainForm.cs`, `TrainFaceRecognizer.cs`
 - Model: `haarcascade_frontalface_default.xml`
